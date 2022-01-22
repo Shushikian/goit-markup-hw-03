@@ -54,6 +54,10 @@ body {
   font-size: 14px;
 }
 
+.section {
+  margin-bottom: var(--main-pading-cont);
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -145,10 +149,6 @@ body {
   padding-right: 15px;
   margin: 0 auto;
   /*outline: 2px solid tomato;*/
-}
-
-.container-midl-margin {
-  margin-top: var(--main-pading-cont);
 }
 
 .footer {
@@ -261,18 +261,12 @@ body {
 }
 
 .main-team {
-  margin-top: var(--main-pading-cont);
   background-color: #f5f4fa;
-}
-
-.main-team-main-title {
-  padding-top: var(--main-pading-cont);
 }
 
 .main-team-main-list {
   display: flex;
   padding-top: 50px;
-  padding-bottom: var(--main-pading-cont);
   margin-left: calc(-1 * var(--main-margin-btwn-inf));
 }
 
@@ -334,7 +328,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--main-margin-btwn-inf));
-  margin-bottom: var(--main-pading-cont);
 }
 
 .card-portf {
