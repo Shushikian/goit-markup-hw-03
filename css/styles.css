@@ -164,7 +164,6 @@ body {
 }
 
 .footer {
-  width: 1600px;
   margin: 0 auto;
   display: block;
   line-height: 1.71;
@@ -216,7 +215,6 @@ body {
 /*---------------------------------MAIN----------------------------------------*/
 
 .hero {
-  width: 1600px;
   margin: 0 auto;
   background-color: var(--main-hero-background);
   padding-top: 200px;
@@ -293,7 +291,7 @@ body {
 }
 
 .main-team {
-  background-color: var(--background-color-html);
+  background-color: #f5f4fa;
 }
 
 .main-team-main-list {
@@ -309,7 +307,7 @@ body {
 }
 
 .main-team-content {
-  background-color: #f5f4fa;
+  background-color: var(--background-color-html);
   text-align: center;
   padding: 30px;
 }
