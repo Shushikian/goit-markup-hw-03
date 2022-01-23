@@ -117,8 +117,8 @@ body {
 
 .nav .link {
   display: block;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .info-head {
@@ -286,7 +286,7 @@ body {
 
 .main-team-main-list {
   display: flex;
-  padding-top: 50px;
+  margin-top: 50px;
   margin-left: calc(-1 * var(--main-margin-btwn-inf));
 }
 
@@ -297,7 +297,7 @@ body {
 }
 
 .main-team-content {
-  background-color: #ffffff;
+  background-color: #f5f4fa;
   text-align: center;
   padding: 30px;
 }
@@ -325,7 +325,6 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  margin-left: -15px;
 }
 
 .btn-list .item + .item {
